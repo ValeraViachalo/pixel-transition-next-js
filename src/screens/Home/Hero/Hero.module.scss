@@ -1,0 +1,11 @@
+.hero {  
+  &__image {
+    width: 55vw;
+    height: auto;
+  }
+
+  &__imageSecondary {
+    width: 45vw;
+    margin-top: 3vw;
+  }
+}

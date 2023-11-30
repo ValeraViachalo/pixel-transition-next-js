@@ -1,0 +1,12 @@
+.collection {
+  margin-top: 4vw;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  &__image {
+    width: 40vw;
+  }
+}

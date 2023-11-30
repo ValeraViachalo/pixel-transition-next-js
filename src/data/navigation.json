@@ -1,0 +1,17 @@
+[
+  {
+    "title": "home",
+    "link" : "/",
+    "bodyColor": ""
+  },
+  {
+    "title": "about us",
+    "link" : "about",
+    "bodyColor": ""
+  },
+  {
+    "title": "buy some",
+    "link" : "shop",
+    "bodyColor": ""
+  }
+]

@@ -1,0 +1,21 @@
+.header {
+  padding: 0 2vw;
+  position: absolute;
+  right: 0;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 6vw;
+    height: 3vw;
+  }
+
+  &__link {
+    padding: 1vw;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

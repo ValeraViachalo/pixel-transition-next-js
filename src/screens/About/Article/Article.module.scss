@@ -1,0 +1,14 @@
+.article {
+  margin-top: 4vw;
+
+  & h1 {
+    width: 60vw;
+    font-size: 2vw;
+  }
+
+  &__subPhoto {
+    margin-top: 1vw;
+    border-top: 1px solid #fff;
+    text-align: center;
+  }
+}
