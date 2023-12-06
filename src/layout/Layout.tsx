@@ -5,7 +5,8 @@ import { Header } from "./Header/Header";
 import { AnimatePresence } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import Scrollbar from 'smooth-scrollbar';
+import Scrollbar from "smooth-scrollbar";
+import LocomotiveScroll from "locomotive-scroll";
 
 export default function RootLayout({
   children,
@@ -15,19 +16,19 @@ export default function RootLayout({
 
   return (
     <>
-    <Head>
-      <title>A$AP</title>
-    </Head>
-    <div>
-      <Header />
-      {children}
-      <Image
-        src="/media/testing.gif"
-        alt="asap main"
-        width={1000}
-        height={100}
-      />
-    </div>
+      <Head>
+        <title>A$AP</title>
+      </Head>
+      <div data-scroll-container>
+        <Header />
+        {children}
+        <Image
+          src="/media/testing.gif"
+          alt="asap main"
+          width={1000}
+          height={100}
+        />
+      </div>
     </>
   );
 }
