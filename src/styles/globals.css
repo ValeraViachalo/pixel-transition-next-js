@@ -38,6 +38,8 @@
     rgb(var(--background-start-rgb));
 
     scrollbar-width: none; 
+
+    transition: all 0.5s ease;
 }
 
 ::-webkit-scrollbar {

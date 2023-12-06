@@ -51,7 +51,7 @@ export default function App({ Component, ...pageProps }: AppProps) {
             <motion.div key={router.pathname}>
               <Component {...pageProps} />
 
-              {/* <Transition/> Replace the two motion divs with the Transition component */}
+              <Transition/> 
             </motion.div>
           )}
         </AnimatePresence>
